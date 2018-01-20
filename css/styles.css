@@ -12,7 +12,7 @@ nav li {
 }
 
 nav li a {
-    display: block;
+    display: inline-block;
     color: red;
     text-align: center;
     padding: 14px 16px;
@@ -24,7 +24,34 @@ nav a:hover {
     background-color: red;
 }
 
+.active-nav {
+    display: inline-block;
+    color: white;
+    background-color: darkred;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+body {
+    margin: 0;
+}
 main {
+    padding-top: 47px;
     background-color: black;
     color: red;
+}
+
+section {
+    display: flex;
+}
+
+aside {
+    background-color: darkgrey;
+    flex: 1
+}
+
+article {
+    background-color: red;
+    color:white;
+    flex: 4
 }

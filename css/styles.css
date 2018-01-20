@@ -1,3 +1,8 @@
+nav {
+    position: fixed;
+    background-color: black;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -46,8 +51,9 @@ section {
 }
 
 img {
-    width: 300px;
-    image-orientation: -90deg;
+    height: 300px;
+    transform: rotate(90deg);
+    padding: 100px;
 }
 
 aside {

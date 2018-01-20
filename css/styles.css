@@ -1,17 +1,10 @@
 nav ul {
-    width: 25%;
-    background-color: black;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
-}
-
-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    position: fixed; /* Make it stick, even on scroll */
+    background-color: black;
 }
 
 nav li {

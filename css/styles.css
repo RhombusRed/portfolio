@@ -45,6 +45,11 @@ section {
     display: flex;
 }
 
+img {
+    width: 300px;
+    image-orientation: -90deg;
+}
+
 aside {
     background-color: darkgrey;
     flex: 1
